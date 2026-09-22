@@ -2,9 +2,11 @@
 name = "capstone-todo-api"
 version = "1.0.0"
 description = "FastAPI Todo CRUD API"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
-    "fastapi",
-    "uvicorn",
+    "fastapi[standard]",
     "sqlalchemy"
 ]
+
+[tool.fastapi]
+entrypoint = "crud:app"
