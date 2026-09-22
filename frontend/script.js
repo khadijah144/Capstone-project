@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://capstone-todo-api.fastapicloud.dev";
 
 const taskInput = document.getElementById("taskInput");
 const addButton = document.getElementById("addButton");
